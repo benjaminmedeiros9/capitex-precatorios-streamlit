@@ -147,7 +147,7 @@ def calcular_rentabilidade_precatorio(valor_precatorio, taxa_selic_anual, anos=5
 with st.container():
     col1, col2 = st.columns([0.2, 0.8])
     with col1:
-        st.image("/home/ubuntu/workspace/precatorio_site/images/logo_capitex.png", width=100) 
+        st.image("images/logo_capitex.png", width=100)
     with col2:
         st.title("CAPITEX")
         st.subheader("Calculadora de Rentabilidade de Investimentos em Precatórios")
